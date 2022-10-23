@@ -1,0 +1,83 @@
+.card-container {
+  width: 30vw;
+  height: 50vh;
+  margin: 2vh 0;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.card-container h2 {
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-card {
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left-card img {
+  height: 80%;
+  width: auto;
+}
+
+.right-card {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.right-card p {
+  text-align: justify;
+}
+
+.right-card .details-btn {
+  padding: 3px 6px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 1.2rem;
+  border: 1px solid black;
+}
+
+.right-card .details-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: blue;
+}
+
+.cart-div {
+  width: 100%;
+}
+
+.cart-div span {
+  text-align: center;
+  display: block;
+  margin: 2vh 0;
+}
+
+.cart-div button {
+  width: 40%;
+  margin: 0 5%;
+}
+
+.cart-div button:hover {
+  cursor: pointer;
+}

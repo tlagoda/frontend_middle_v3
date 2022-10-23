@@ -1,0 +1,36 @@
+.beerlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beerlist-container h2 {
+    margin: 2vh 0;
+}
+
+.list-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.beerlist-container .pagination-div {
+    width: 20%;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pagination-div button {
+    width: 30%;
+    padding: 5px 10px;
+}
+
+.pagination-div button:hover {
+    cursor: pointer;
+}
